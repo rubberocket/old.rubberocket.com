@@ -12,5 +12,5 @@ tip[9]="Blender's a thing." + ' <a href="https://www.blender.org">Get it!</a>';
 tip[10]="If you're a gen alpha and you don't know what we're talking about, <a href=" +  '"https://wikipedia.org"' + ">Wikipedia exists</a>.";
 tip[11]="You're using " + navigator.userAgent + ".";
 tip[12]="Your IP is 127.0.0.1. Har har. Enjoy getting hacked."; 
-var y=Math.round(Math.random()*11)%11+1;
+var y=Math.round(Math.random()*12)%12+1;
 document.write(tip[y]);
