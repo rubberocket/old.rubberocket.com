@@ -10,5 +10,7 @@ tip[7]="no.";
 tip[8]="Dynadot sells domains for cheap! This domain costed $7.99 with a coupon! It's a fucking steal!";
 tip[9]="Blender's a thing." + ' <a href="https://www.blender.org">Get it!</a>';
 tip[10]="If you're a gen alpha and you don't know what we're talking about, <a href=" +  '"https://wikipedia.org"' + ">Wikipedia exists</a>.";
-var y=Math.round(Math.random()*10)%10+1;
+tip[11]="You're using" + navigator.userAgent + ".";
+
+var y=Math.round(Math.random()*11)%11+1;
 document.write(tip[y]);
