@@ -3,19 +3,9 @@ document.getElementsByTagName("body").class = theme;
 document.getElementsByTagName("a").class = theme; 
 
 function doit(){
-  if (theme === "default") { 
-    document.cookie = "theme=light"; 
+    var themeselected = prompt("What theme do you want? \n Options are: dark, light and geocities. type in the one you want in lowercase.";
+    document.cookie = "theme=" + themeselected; 
+    var theme = document.cookie.indexOf('theme=');
     document.getElementsByTagName("body").class = "light"; 
     document.getElementsByTagName("a").class = "light"; 
-  } 
-  if (theme === "light") { 
-    document.cookie = "theme=geocities"; 
-    document.getElementsByTagName("body").class = "geocities"; 
-    document.getElementsByTagName("a").class = ""; 
-  } 
-  if (theme === "geocities") { 
-    document.cookie = "theme=default"; 
-    document.getElementsByTagName("body").class = "default"; 
-    document.getElementsByTagName("a").class = "default"; 
-  } 
 }
