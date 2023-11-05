@@ -1,5 +1,15 @@
-function doit(){
 var theme = document.cookie.indexOf('theme=');
+if (theme === "-1") { 
+  console.log("Theme not set..."); 
+  document.cookie = "theme=default"; 
+  document.getElementById("body").class = "default"; 
+  document.getElementsByTagName("a").class = "default"; 
+} else {
+  document.getElementById("body").class = theme; 
+  document.getElementsByTagName("a").class = theme; 
+}
+
+function doit(){
 if (theme === "-1") { 
   console.log("Theme not set..."); 
   document.cookie = "theme=default"; 
