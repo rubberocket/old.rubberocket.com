@@ -1,0 +1,61 @@
+/*default*/
+body.default, body.black {
+background: #000;
+color: #FFF;
+font-family: serif;
+}
+a.default:link, a.black:link {
+color: #FFF;
+}
+a.default:hover, a.black:hover {
+color: #FFF;
+}
+a.default:active, a.black:active {
+color: #FF0000;
+}
+a.default:visited, a.black:visited {
+color: #00FF00;
+}
+/*light*/
+body.light {
+background: #FFF;
+color: #000;
+font-family: serif;
+}
+a.light:link {
+color: #000;
+}
+a.light:hover {
+color: #000;
+}
+a.light:active {
+color: #FF0000;
+}
+a.light:visited {
+color: #0000FF;
+}
+/*geocities*/
+body.geocities {
+background: #0000FF url("/images/geocities.jpg");
+color: yellow;
+font-family: Comic Sans MS;
+}
+/*no a tags, fuck you*/
+
+/*that's it for now*/
+/*get lost asshole*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*I know your IP >:)*/
+/*jk, but still, get the fuck out*/
