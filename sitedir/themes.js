@@ -21,5 +21,4 @@ if (theme === "-1") {
     document.getElementById("body").class = "default"; 
     document.getElementsByTagName("a").class = "default"; 
   } 
-  window.location.reload();
 }
