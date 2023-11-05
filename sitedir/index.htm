@@ -120,7 +120,7 @@ Didn't mean to visit this URL? Well, <a href="goaway.htm"><strong><em>why didn't
 <!--End Layout-->
 
 <!--ChangeTheme-->
-<img src="images/themeselect/lightbulb.gif" onclick="this.src='images/themeselect/lightbulb_down.gif'; setTheme();" onmouseout="this.src='images/themeselect/lightbulb.gif';" alt="set a theme..." style="position: absolute; bottom: 0; right: 0;" width="32" height="32">
+<img src="images/themeselect/lightbulb.gif" onmousedown="this.src='images/themeselect/lightbulb_down.gif';" onclick='if (theme === "-1") { console.log("Theme not set..."); document.cookie = "theme=default"; document.getElementById("body").class = "default"; document.getElementsByTagName("a").class = "default"; } if (theme === "default") { document.cookie = "theme=light"; document.getElementById("body").class = "light"; document.getElementsByTagName("a").class = "light"; } if (theme === "light") { document.cookie = "theme=geocities"; document.getElementById("body").class = "geocities"; document.getElementsByTagName("a").class = ""; } if (theme === "geocities") { document.cookie = "theme=default"; document.getElementById("body").class = "default"; document.getElementsByTagName("a").class = "default"; }' onmouseout="this.src='images/themeselect/lightbulb.gif';" alt="set a theme..." style="position: absolute; bottom: 0; right: 0;" width="32" height="32">
 </body>
 
 </html>
