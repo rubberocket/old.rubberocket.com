@@ -4,6 +4,11 @@ background: #000;
 color: #FFF;
 font-family: serif;
 }
+.sidebar {
+background: #DD0000;
+color: #FFF;
+}
+
 a.default:link, a.black:link {
 color: #FFF;
 }
