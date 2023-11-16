@@ -1,5 +1,6 @@
 User-agent: Googlebot
 Disallow: /404.html
+Disallow: /index.html
 
 User-agent: *
 Allow: /
