@@ -1,6 +1,5 @@
 User-agent: Googlebot
 Disallow: /404.html
-Disallow: /index.html
 Disallow: /checkreq.html
 Disallow: /goaway.html
 
