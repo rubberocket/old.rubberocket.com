@@ -4,7 +4,7 @@ var br = "<br>";
 var letin = "http://www.rubberocket.com/home/";
 
 //css
-if(document.) {  
+if(document.body.style.background = "#000") {  
 var css = "<font color='green'>CSS is supported!</font>";
 }else {
 var css = "<font color='red'>CSS is not supported!</font>";
