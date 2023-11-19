@@ -54,21 +54,13 @@ content="rubberocket, rubberocket.com, rubber rocket, rubberrocket, rubberocket*
 <meta property="og:image:alt" content="rubberocket*com banner">
 <meta property="og:description" content="Here on rubberocket*com are screensavers, wallpapers and stuff!">
 <meta property="og:url" content="https://rubberocket.com/downloads/">
-
-<!--JQuery-->
-<script src="../jquery.min.js" type="text/javascript">
-</script>
-<script type="text/javascript">
-$(function(){
-$('#header').load('../header.htm');
-$('#footer').load('../footer.htm');
-});
-</script>
 </head>
 
 <body bgcolor="#000" text="#FFFFFF" link="#FFFFFF" alink="#FF0000" vlink="#00FF00">
-<div id="header"></div>
-<marquee><h1>download centre</h1></marquee>
+<div id="header"><script type="text/javascript" language="JavaScript" src="../header.js"></script></div>
+
+<marquee behavior="alternate"><h1>download centre</h1></marquee>
+
 <table>
 <tbody>
 <!--Sidebar + Content-->
@@ -77,7 +69,7 @@ $('#footer').load('../footer.htm');
 <!--Sidebar-->
 <td bgcolor="#550000" width="160"><!--subcategories would go here-->
 <ul>
-<li><a href="../catalog/">Games are in the catalog</a></li>
+<li>Anything but games!</li>
 <li><a href="#screensavers">Screensavers</a></li>
 <li><a href="#wallpapers">Wallpapers</a></li>
 <li><a href="#CDs">CDs! CDs!!</a></li>
@@ -111,8 +103,8 @@ More coming soon.<br>
 </tbody>
 </table>
 <!--End Layout-->
-<hr>
-<div id="footer"></div>
+
+<div id="footer"><script type="text/javascript" language="JavaScript" src="../footer.js"></script></div>
 </body>
 
 </html>
