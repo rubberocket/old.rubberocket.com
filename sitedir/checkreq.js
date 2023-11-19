@@ -4,7 +4,7 @@ var br = "<br>";
 var letin = "http://www.rubberocket.com/home/";
 
 //css
-if(document.body.style) {  
+if(document.) {  
 var css = "<font color='green'>CSS is supported!</font>";
 }else {
 var css = "<font color='red'>CSS is not supported!</font>";
@@ -23,6 +23,6 @@ var button = "<button onClick='window.location.href = letin;'>come in</button>";
 }
 
 function resultsAreIn() {
-document.write(title + css + br + html5);
+document.write("<style>html, body { background: #000; }</style>" + title + css + br + html5);
 document.title = "The results are in!";
 }
