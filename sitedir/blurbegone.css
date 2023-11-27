@@ -4,4 +4,12 @@ image-rendering: pixelated;
 /* disregard what i said earlier in that html comment i'm very lazy to remove lol */
 html, body {
 font-family: Arial, Helvetica Regular, Helvetica, sans-serif;
+background-color: #000;
+color: #FFF;
+}
+a, a:link, a:visited, a:hover {
+color: #FFF;
+}
+a:active {
+color: #FF0000;
 }
