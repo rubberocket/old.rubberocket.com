@@ -14,8 +14,7 @@ color: #FF0000;
 #header {
 overflow:hidden; 
 display: block; 
-position:-webkit-sticky; 
-position:sticky; 
+position: fixed; 
 top:0; 
 width: 100%;
 background-color: #000;
