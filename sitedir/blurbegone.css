@@ -20,3 +20,20 @@ color: #FFF;
 a.header:active {
 color: #FF0000;
 }
+.header {
+overflow:hidden; 
+display: block; 
+position:-webkit-sticky; 
+position:sticky; 
+top:0; 
+width: 100%;
+background-color: #000;
+background: #000;
+color: #FFF;
+}
+.logo {
+float: left;
+}
+.navlink {
+float: right;
+}
