@@ -6,7 +6,7 @@ status = 301
 
 [[redirects]]
 from = "/"
-to = "/home/"
+to = "/index.html"
 status = 301
 
 ## Categories
