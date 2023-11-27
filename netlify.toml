@@ -1,57 +1,16 @@
 ## There's not really much use for the index file
 [[redirects]]
-  from = "/index.html"
-  to = "/home/"
-  status = 301
-  force = true
-  query = {path = ":path"}
+from = "/index.html"
+to = "/home/"
+status = 301
+
 [[redirects]]
-  from = "/"
-  to = "/home/"
-  status = 301
-  force = true
-  query = {path = ":path"}
-## We need to be clean for the URLs
+from = "/"
+to = "/home/"
+status = 301
+
+## Categories
 [[redirects]]
-  from = "/home/index.html"
-  to = "/home/"
-  status = 301
-  force = true
-  query = {path = ":path"}
-[[redirects]]
-  from = "/downloads/index.html"
-  to = "/downloads/"
-  status = 301
-  force = true
-  query = {path = ":path"}
-[[redirects]]
-  from = "/videos/index.html"
-  to = "/videos/"
-  status = 301
-  force = true
-  query = {path = ":path"}
-[[redirects]]
-  from = "/games/index.html"
-  to = "/games/"
-  status = 301
-  force = true
-  query = {path = ":path"}
-[[redirects]]
-  from = "/about/index.html"
-  to = "/about/"
-  status = 301
-  force = true
-  query = {path = ":path"}
-## Redirects for old pages from some other site
-[[redirects]]
-  from = "/toons/index.html"
-  to = "/videos/?category=cartoons"
-  status = 301
-  force = true
-  query = {path = ":path"}
-[[redirects]]
-  from = "/toons/"
-  to = "/videos/?category=cartoons"
-  status = 301
-  force = true
-  query = {path = ":path"}
+from = "/toons/"
+to = "/videos/?category=cartoons"
+status = 301
