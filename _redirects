@@ -1,10 +1,11 @@
 # Redirects from what the browser requests to what we serve
-/																				/home/
-/index.html															/home/
-/home/index.html												/home/
-/downloads/index.html										/downloads/
-/videos/index.html											/videos/
-/toons/index.html												/videos/?cartoons=true
-/gallery/index.html											/gallery/
-/games/index.html												/games/
-/about/index.html												/about/
+# Homepage
+/                                           /home/
+# Clean URLs
+/home/index.html                            /home/
+/downloads/index.html										    /downloads/
+/videos/index.html									    		/videos/
+/toons/index.html					    							/videos/?cartoons=true
+/gallery/index.html						    					/gallery/
+/games/index.html							    					/games/
+/about/index.html					    							/about/
