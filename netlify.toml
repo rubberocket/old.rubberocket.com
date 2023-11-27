@@ -6,11 +6,22 @@ status = 301
 
 [[redirects]]
 from = "/"
-to = "/index.html"
+to = "/home/"
 status = 301
 
 ## Categories
 [[redirects]]
 from = "/toons/"
 to = "/videos/?category=cartoons"
+status = 301
+
+# Let's be cleanER
+[[redirects]]
+from = "*.html"
+to = "*"
+status = 301
+
+[[redirects]]
+from = "*/index.html"
+to = "*/"
 status = 301
