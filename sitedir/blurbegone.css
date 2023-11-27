@@ -18,9 +18,9 @@ position: sticky;
 position: --webkit-sticky;
 top:0; 
 width: 100%;
-background-color: #000;
 background: #000;
 color: #FFF;
+padding: 5px;
 }
 .logo {
 float: left;
