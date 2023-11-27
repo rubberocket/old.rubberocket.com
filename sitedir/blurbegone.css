@@ -20,7 +20,7 @@ color: #FFF;
 a.header:active {
 color: #FF0000;
 }
-.header {
+#header {
 overflow:hidden; 
 display: block; 
 position:-webkit-sticky; 
