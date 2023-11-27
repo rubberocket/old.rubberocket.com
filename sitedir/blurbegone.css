@@ -14,12 +14,6 @@ color: #FFF;
 a:active {
 color: #FF0000;
 }
-a.header, a.header:link, a.header:visited, a.header:hover {
-color: #FFF;
-}
-a.header:active {
-color: #FF0000;
-}
 #header {
 overflow:hidden; 
 display: block; 
