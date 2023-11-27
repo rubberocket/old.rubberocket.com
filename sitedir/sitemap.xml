@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://rubberocket.com/</loc>
-    <lastmod>2023-11-04</lastmod>
+    <loc>https://rubberocket.com/home/</loc>
+    <lastmod>2023-11-26</lastmod>
   </url>
   <url>
-    <loc>https://rubberocket.com/</loc>
-    <lastmod>2023-11-06</lastmod>
+    <loc>https://rubberocket.com/downloads/</loc>
+    <lastmod>2023-11-26</lastmod>
   </url>
   <url>
-    <loc>https://rubberocket.com/goaway.htm</loc>
-    <lastmod>2023-11-04</lastmod>
+    <loc>https://rubberocket.com/games/</loc>
+    <lastmod>2023-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://rubberocket.com/videos/</loc>
+    <lastmod>2023-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://rubberocket.com/about/</loc>
+    <lastmod>2023-11-26</lastmod>
   </url>
 </urlset>
