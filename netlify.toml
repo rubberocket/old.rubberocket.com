@@ -15,13 +15,8 @@ from = "/toons/"
 to = "/videos/?category=cartoons"
 status = 301
 
-# Let's be cleanER
+# I don't like that netlify subdomain.
 [[redirects]]
-from = "*.html"
-to = "*"
-status = 301
-
-[[redirects]]
-from = "*/index.html"
-to = "*/"
+from = "https://rubberocket.netlify.app/*"
+to = "https://rubberocket.com/*"
 status = 301
