@@ -1,7 +1,16 @@
 /* disregard what i said earlier in that html comment. i'm very lazy to remove it. unfortunate, i know. */
 
+@font-face {
+font-family: Inter;
+src: url("/fonts/INTER.ttf");
+}
+@font-face {
+font-family: Inter;
+src: url("/fonts/SPOTESK.ttf");
+}
+
 html, body {
-font-family: Arial, Helvetica Regular, Helvetica, sans-serif;
+font-family: Inter, Arial, Helvetica Regular, Helvetica, sans-serif;
 background-color: #000;
 color: #FFF;
 }
@@ -21,6 +30,8 @@ width: 100%;
 background: #000;
 color: #FFF;
 padding: 5px;
+font-weight: bold;
+font-family: Space Grotesk, Courier New, monospace;
 }
 .logo {
 float: left;
