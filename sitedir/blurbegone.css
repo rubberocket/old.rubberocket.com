@@ -35,6 +35,9 @@ font-family: Space Grotesk, Courier New, monospace;
 }
 .logo {
 float: left;
+-moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
 }
 .navlink {
 float: right;
