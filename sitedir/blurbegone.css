@@ -130,7 +130,7 @@ background: url("/images/rubberocket-logos/wordmark_black.png");
 background-size: 186px 20px;
 display: block;
 }
-@media (orientation: landscape) {
+@media (orientation: portrait) {
 .navlink {
 float: right;
 display: none;
