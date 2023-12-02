@@ -71,8 +71,8 @@ position: sticky;
 position: --webkit-sticky;
 top:0;
 width: 100%;
-background: #FFF;
-color: #000;
+background: #000;
+color: #FFF;
 font-weight: bold;
 font-family: Space Grotesk, Courier New, monospace;
 }
