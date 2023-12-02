@@ -38,6 +38,9 @@ float: left;
 -moz-user-select: none;
 -webkit-user-select: none;
 user-select: none;
+width: 186px;
+height: 20px;
+background: url("/images/rubberocket-logos/wordmark_white.png");
 }
 .navlink {
 float: right;
