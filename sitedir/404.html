@@ -58,15 +58,36 @@ content="rubberocket, rubberocket.com, rubber rocket, rubberrocket, rubberocket*
 
 <body>
 <div id="header">
+<center>
+<h1><img src="/images/rubberocket-logos/wordmark_white.gif" alt="rubberocket*" width="50%"></h1>
+<hr>
+<a href="/home/">home</a> | <a href="/downloads/">downloads</a> | <a href="/videos/">videos</a> | <a href="/games/">games</a> | <a href="/about/">about</a>
+<hr>
+</center>
 </div>
 <center>
 <h1>404</h1>
-<p>Did you try looking at the <a href="/home/">HOMEPAGE</a>?!</p>
+<p>Dude, where's my page?</p>
+<p id="there"><!--Oh, there it is!--></p>
+<p id="lost"><!--This page, after being stoned for so long, can't seem to remember where this page went.--></p>
+<p><small><a href="javascript:document.getElementById('then').style = 'display: block;';">and theeeennnn???</a></small></p>
+<p><span style="display: hidden;"><iframe width="426" height="240" src="https://www.youtube-nocookie.com/embed/oqwzuiSy9y0?start=1&end=131&modestbranding=1"></iframe></span></p>
 </center>
 <div id="footer">
 <hr>
 <center><small>&copy; rubberocket* studios. Created by Aleph Diallo.</small></center>
 </div>
+
+<script type="text/javascript">
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const page = urlParams.get('page');
+if (!page) {
+document.getElementById("lost").innerHTML = "This page, after being stoned for so long, can't seem to remember where this page went.";
+}else {
+document.getElementById("there").innerHTML = '<a href="' + page + '">Oh, there it is!</a>";
+}
+</script>
 </body>
 
 </html>
