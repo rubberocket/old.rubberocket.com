@@ -1,5 +1,7 @@
 /* disregard what i said earlier in that html comment. i'm very lazy to remove it. unfortunate, i know. */
-@import url("/fonts/awesome.css");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css");
+
 @font-face {
 font-family: Inter;
 src: url("/fonts/INTER.ttf");
@@ -8,19 +10,17 @@ src: url("/fonts/INTER.ttf");
 font-family: Inter;
 src: url("/fonts/SPOTESK.ttf");
 }
+
 html, body {
 font-family: Inter, Arial, Helvetica Regular, Helvetica, sans-serif;
-}
-@media (prefers-color-scheme: light) {
-html, body {
-background-color: #FFF;
-color: #000;
+background-color: #000;
+color: #FFF;
 }
 a, a:link, a:visited, a:hover {
-color: #FF0000;
+color: #FFF;
 }
 a:active {
-color: #0000FF;
+color: #FF0000;
 }
 #header {
 overflow:hidden; 
@@ -34,9 +34,6 @@ color: #FFF;
 padding: 5px;
 font-weight: bold;
 font-family: Space Grotesk, Courier New, monospace;
-}
-.menu {
-display: hidden;
 }
 .logo {
 float: left;
@@ -49,87 +46,7 @@ width: 186px;
 height: 20px;
 background: url("/images/rubberocket-logos/wordmark_white.png");
 background-size: 186px 20px;
-display: block;
-}
-@media (orientation: landscape) {
-#header {
-overflow:hidden; 
-display: block; 
-position: sticky;
-position: --webkit-sticky;
-top:0; 
-width: 100%;
-background: #000;
-color: #FFF;
-padding: 5px;
-font-weight: bold;
-
-font-family: Space Grotesk, Courier New, monospace;
 }
 .navlink {
 float: right;
-display: none;
-}
-}
-@media (prefers-color-scheme: dark) {
-html, body {
-background-color: #000;
-color: #FFF;
-}
-a, a:link, a:visited, a:hover {
-color: #FF0000;
-}
-a:active {
-color: #FFF;
-}
-#header {
-overflow:hidden; 
-display: block; 
-position: sticky;
-position: --webkit-sticky;
-top:0; 
-width: 100%;
-background: #FFF;
-color: #000;
-padding: 5px;
-font-weight: bold;
-font-family: Space Grotesk, Courier New, monospace;
-}
-.menu {
-display: hidden;
-}
-.logo {
-float: left;
--moz-user-select: -moz-none;
--khtml-user-select: none;
--webkit-user-select: none;
--o-user-select: none;
-user-select: none;
-width: 186px;
-height: 20px;
-background: url("/images/rubberocket-logos/wordmark_black.png");
-background-size: 186px 20px;
-display: block;
-}
-}
-
-@media (orientation: portrait) {
-.navlink {
-float: right;
-display: none;
-}
-.menu {
-float: right;
-width: 16px;
-height: 16px;
-background: #FFF;
-color: #000;
-display: block;
-}
-.menubars {
-width: 10px;
-height: 5px;
-background-color: black;
-margin: 6px 0;
-}
 }
