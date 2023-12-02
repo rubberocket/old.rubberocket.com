@@ -41,6 +41,7 @@ user-select: none;
 width: 186px;
 height: 20px;
 background: url("/images/rubberocket-logos/wordmark_white.png");
+background-size: 186px 20px;
 }
 .navlink {
 float: right;
