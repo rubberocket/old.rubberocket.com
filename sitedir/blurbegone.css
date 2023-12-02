@@ -1,4 +1,5 @@
 /* disregard what i said earlier in that html comment. i'm very lazy to remove it. unfortunate, i know. */
+@import url("/fonts/awesome.css");
 @font-face {
 font-family: Inter;
 src: url("/fonts/INTER.ttf");
@@ -7,10 +8,11 @@ src: url("/fonts/INTER.ttf");
 font-family: Inter;
 src: url("/fonts/SPOTESK.ttf");
 }
-
-@media (prefers-color-scheme: light) {
 html, body {
 font-family: Inter, Arial, Helvetica Regular, Helvetica, sans-serif;
+}
+@media (prefers-color-scheme: light) {
+html, body {
 background-color: #FFF;
 color: #000;
 }
@@ -71,7 +73,6 @@ display: none;
 }
 @media (prefers-color-scheme: dark) {
 html, body {
-font-family: Inter, Arial, Helvetica Regular, Helvetica, sans-serif;
 background-color: #000;
 color: #FFF;
 }
