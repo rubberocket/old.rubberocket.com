@@ -31,6 +31,7 @@ background: #000;
 color: #FFF;
 padding: 5px;
 font-weight: bold;
+text-align: center;
 font-family: Space Grotesk, Courier New, monospace;
 }
 .logo {
@@ -44,7 +45,9 @@ width: 186px;
 height: 20px;
 background: url("/images/rubberocket-logos/wordmark_white.png");
 background-size: 186px 20px;
+display: block;
 }
 .navlink {
 float: right;
+display: block;
 }
