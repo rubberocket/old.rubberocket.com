@@ -121,14 +121,14 @@ display: none;
 }
 .menu {
 float: right;
-width: 15px;
-height: 15px;
+width: 16px;
+height: 16px;
 background: #FFF;
 color: #000;
 display: block;
 }
 .menubars {
-width: 5px;
+width: 10px;
 height: 5px;
 background-color: black;
 margin: 6px 0;
