@@ -57,6 +57,7 @@ html, body {
 font-family: Inter, Arial, Helvetica Regular, Helvetica, sans-serif;
 background-color: #FFF;
 color: #000;
+margin: 0;
 }
 a, a:link, a:visited, a:hover {
 color: #FF0000;
