@@ -67,32 +67,8 @@ content="rubberocket, rubberocket.com, rubber rocket, rubberrocket, rubberocket*
 </div>
 <center>
 <h1>404</h1>
-<p>Dude, where's my page?</p>
-<p id="there"><!--Oh, there it is!--></p>
-<p id="lost"><!--This page, after being stoned for so long, can't seem to remember where this page went.--></p>
-<script type="text/javascript">
-function andThen(){
-document.getElementById('then').style = 'display: block;';
-}
-</script>
-<p><small><a href="javascript:andThen();">and theeeennnn???</a></small></p>
-<p><span style="display: none;" id="then"><iframe width="426" height="240" src="https://www.youtube-nocookie.com/embed/oqwzuiSy9y0?start=1&end=131&modestbranding=1"></iframe></span></p>
-</center>
-<div id="footer">
-<hr>
-<center><small>&copy; rubberocket* studios. Created by Aleph Diallo.</small></center>
-</div>
-
-<script type="text/javascript">
-const queryString = window.location.search;
-const urlParams = new URLSearchParams(queryString);
-const page = urlParams.get('page');
-if (page === null || !page == "undefined") {
-document.getElementById("lost").innerHTML = "This page, after being stoned for so long, can't seem to remember where this page went.";
-}else {
-document.getElementById("there").innerHTML = '<a href="' + page + '">Oh, there it is!</a>";
-}
-</script>
+<p>What's the best way to avoid this error?</p>
+<p><a href="javascript:window.close();">close the page | <a href="/home">go to the homepage</a></p>
 </body>
 
 </html>
