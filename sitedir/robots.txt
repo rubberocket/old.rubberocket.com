@@ -2,8 +2,9 @@ User-agent: Googlebot
 Disallow: /404.html
 Disallow: /checkreq.html
 Disallow: /goaway.html
+Disallow: /bliparchive/*
 
 User-agent: *
-Allow: /
+Allow: /*
 
 Sitemap: https://rubberocket.com/sitemap.xml
