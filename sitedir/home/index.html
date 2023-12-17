@@ -68,9 +68,14 @@ content="rubberocket, rubberocket.com, rubber rocket, rubberrocket, rubberocket*
 </div>
 
 <center>
-<audio src="/audio/dramaticmusic_youngfrankenstein.mp3" controls autoplay class="thehiddenclass">
+<audio src="/audio/dramaticmusic_youngfrankenstein.mp3" id="spook" controls autoplay class="thehiddenclass">
 <embed src="/audio/dramaticmusic_youngfrankenstein.mp3" autoplay="true" autostart="1" type="audio/mpeg">
 </audio>
+<script type="text/javascript" language="JavaScript">
+window.onload = function() {
+document.getElementById("spook").play();
+}
+</script>
 <img src="/images/Dramatic_Chipmunk.png" alt="prairie dog staredown!"><br>
 <a href="/bliparchive/2023-12-13.html">previous blip</a>
 </center>
