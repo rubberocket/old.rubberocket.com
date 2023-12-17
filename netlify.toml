@@ -1,3 +1,4 @@
+## Redirect to home for the root index.html
 [[redirects]]
 from = "/index.html"
 to = "/home/"
@@ -8,15 +9,18 @@ from = "/"
 to = "/home/"
 status = 301
 
+## temporarily under construction
 [[redirects]]
 from = "/404.html"
 to = "/home/"
 status = 302
 
+## Redirect to extras for downloads
 from = "/downloads/"
 to = "/extras?cat=downloads"
 status = 301
 
+##favicon
 from = "/favicon.ico"
 to = "/images/logos/rubberocket_icon.ico"
 status = 301
