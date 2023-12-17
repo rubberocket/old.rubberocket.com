@@ -42,11 +42,19 @@ place-items: center;
 }
 
 .videos {
-background: #33aadd;
+background: #33AADD;
 color: #000;
 }
 
 #videocontainer {
+place-items: center;
+}
+
+.about {
+background: #DDAA33;
+color: #000;
+font-weight: bold;
+text-align: center;
 place-items: center;
 }
 
