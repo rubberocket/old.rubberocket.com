@@ -19,6 +19,7 @@ font-family: Inter, Arial, sans-serif;
 /* we have to make it fill the window because browsers are stupid */
 width: 100%;
 height: 100%;
+width: clamp(200px, 60%, 640px);
 }
 
 a, a:link {
@@ -90,11 +91,6 @@ padding: 10px;
 text-align: center;
 place-items: center;
 image-rendering: pixelated;
-width: clamp(200px, 60%, 640px);
-}
-
-.main {
-width: clamp(200px, 60%, 640px);
 }
 
 .crt{
