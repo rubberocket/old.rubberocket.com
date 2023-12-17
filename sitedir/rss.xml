@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<atom:link href="https://rubberocket.com/rss.xml" rel="self" type="application/rss+xml" />
 <!--blip channel-->
 <channel>
    <title>blips!</title>
    <description>all the blips, all for fun!</description>
-   <link>https://www.rubberocket.com/home/</link>
-    <atom:link href="https://rubberocket.com/rss.xml" rel="self" type="application/rss+xml" />
   <!--blip images-->
   <item>
    <title>doodoo pookie puke.</title>
     <description>LAUGH!</description>
-   <link>https://rubberocket.com/bliparchive/2023-12-13.html</link>
   </item>
 </channel>
 </rss>

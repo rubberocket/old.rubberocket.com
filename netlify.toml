@@ -1,4 +1,4 @@
-## There's not really much use for the index file
+## Redirect to home for the root index.html
 [[redirects]]
 from = "/index.html"
 to = "/home/"
@@ -9,14 +9,18 @@ from = "/"
 to = "/home/"
 status = 301
 
-## Categories
+## temporarily under construction
 [[redirects]]
-from = "/toons/"
-to = "/videos/?category=cartoons"
+from = "/404.html"
+to = "/home/"
+status = 302
+
+## Redirect to extras for downloads
+from = "/downloads/"
+to = "/extras?cat=downloads"
 status = 301
 
-# I don't like that netlify subdomain.
-[[redirects]]
-from = "https://rubberocket.netlify.app/*"
-to = "https://rubberocket.com/*"
+##favicon
+from = "/favicon.ico"
+to = "/images/logos/rubberocket_icon.ico"
 status = 301
