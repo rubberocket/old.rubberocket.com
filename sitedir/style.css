@@ -147,4 +147,5 @@ float: right;
 .navigation {
 background: #000;
 color: #FFF;
+display: block;
 }
