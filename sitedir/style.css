@@ -88,8 +88,8 @@ image-rendering: pixelated;
 width: clamp(200px, 60%, 640px);
 }
 
-.crthome{
-width: 90%;
+.crt{
+width: 70%;
 text-align: center;
 place-items: center;
 float: right;
