@@ -131,3 +131,6 @@ background-size: 186px 20px;
 float: right;
 }
 }
+.thehiddenclass, head {
+display: none;
+}
