@@ -19,8 +19,3 @@ status = 302
 from = "/downloads/"
 to = "/extras?cat=downloads"
 status = 301
-
-##favicon
-from = "/favicon.ico"
-to = "/images/logos/rubberocket_icon.ico"
-status = 301
