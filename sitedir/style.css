@@ -19,6 +19,8 @@ font-family: Inter, Arial, sans-serif;
 /* we have to make it fill the window because browsers are stupid */
 width: 100%;
 height: 100%;
+max-width: 800px;
+place-items: center;
 }
 
 a, a:link {
@@ -71,16 +73,12 @@ filter: blur(10px);
 /* now for responsive web design */
 
 .rrlogo {
-filter: invert(0%);
 height: 70%;
-}
-
-.rrlogo:hover {
-filter: invert(100%);
 }
 
 .header {
 height: 30%;
+display: block;
 }
 
 .headerhome {
