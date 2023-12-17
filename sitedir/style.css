@@ -23,8 +23,7 @@ place-items: center;
 }
 
 .container {
-min-width: 200px;
-max-width: 1024px;
+max-width: 800px;
 display: block;
 }
 
