@@ -1,16 +1,1 @@
-## Redirect to home for the root index.html
-[[redirects]]
-from = "/index.html"
-to = "/home/"
-status = 301
-
-[[redirects]]
-from = "/"
-to = "/home/"
-status = 301
-
-## downloads 2 extras
-[[redirects]]
-from = "/extras/?downloads=yes"
-to = "/home/"
-status = 301
+## fuck
