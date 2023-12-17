@@ -70,6 +70,10 @@ filter: blur(10px);
 /* now for responsive web design */
 
 .rrlogo {
+height: 30%;
+}
+
+.rrlogohome {
 height: 70%;
 }
 
