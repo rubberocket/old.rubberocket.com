@@ -46,6 +46,10 @@ background: #33aadd;
 color: #000;
 }
 
+#videocontainer {
+place-items: center;
+}
+
 /* end page-specific styling */
 
 .hoverblur {
@@ -85,7 +89,7 @@ width: clamp(200px, 60%, 640px);
 }
 
 .crthome{
-width: 100%;
+width: 90%;
 text-align: center;
 place-items: center;
 float: right;
