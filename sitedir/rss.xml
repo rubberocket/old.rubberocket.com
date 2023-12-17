@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<atom:link href="https://rubberocket.com/rss.xml" rel="self" type="application/rss+xml" />
+<!--blip channel-->
+<channel>
+   <title>blips!</title>
+   <description>all the blips, all for fun!</description>
+  <!--blip images-->
+  <item>
+   <title>doodoo pookie puke.</title>
+    <description>LAUGH!</description>
+  </item>
+</channel>
+</rss>
+<!--this is a valid rss feed.-->

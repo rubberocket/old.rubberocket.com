@@ -9,8 +9,8 @@ from = "/"
 to = "/home/"
 status = 301
 
-## temporarily under construction
+## downloads 2 extras
 [[redirects]]
-from = "/404.html"
+from = "/extras/?downloads=yes"
 to = "/home/"
-status = 302
+status = 301
