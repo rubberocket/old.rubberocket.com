@@ -17,7 +17,8 @@ background: #000;
 color: #FFF;
 font-family: Inter, Arial, sans-serif;
 /* we have to make it fill the window because browsers are stupid */
-width: clamp(200px, 60%, 640px);
+min-width: 200px;
+max-width: 1024px;
 }
 
 a, a:link {
