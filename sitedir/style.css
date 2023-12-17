@@ -38,9 +38,9 @@ color: #000;
 margin: 0 auto;
 text-align: center;
 font-weight: bold;
-font-size: 5vw;
-/* comment this out when done revamping site */
+/* comment these out when done revamping site */
 overflow: hidden;
+font-size: 3vw;
 }
 
 /* end page-specific styling */
