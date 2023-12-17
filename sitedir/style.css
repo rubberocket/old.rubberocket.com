@@ -60,7 +60,7 @@ filter: blur(10px);
 
 .rrlogo {
 filter: invert(0%);
-width: 30%;
+height: 70%;
 }
 
 .rrlogo:hover {
@@ -68,7 +68,7 @@ filter: invert(100%);
 }
 
 .header {
-height: 20%;
+height: 30%;
 }
 
 .headerhome {
@@ -84,13 +84,10 @@ image-rendering: pixelated;
 width: clamp(200px, 60%, 640px);
 }
 
-.homelinks, .crthome{
-width: 50%;
+.crthome{
+width: 100%;
 text-align: center;
 place-items: center;
-}
-
-.crthome {
 float: right;
 }
 
