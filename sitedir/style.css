@@ -80,7 +80,8 @@ filter: invert(100%);
 }
 
 .header {
-height: 30%;
+width: 100%;
+display: block;
 }
 
 .headerhome {
