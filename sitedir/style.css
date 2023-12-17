@@ -141,3 +141,14 @@ aspect-ration: 16/9;
 video.43 {
 aspect-ration: 4/3;
 }
+
+.rrlogolefty {
+float: left;
+}
+.linksrighty {
+float: right;
+}
+.navigation {
+background: #000;
+color: #FFF;
+}
