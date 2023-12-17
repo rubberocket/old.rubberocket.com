@@ -93,6 +93,10 @@ image-rendering: pixelated;
 width: clamp(200px, 60%, 640px);
 }
 
+.main {
+width: clamp(200px, 60%, 640px);
+}
+
 .crt{
 width: 70%;
 text-align: center;
