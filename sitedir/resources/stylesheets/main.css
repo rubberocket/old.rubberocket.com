@@ -220,7 +220,7 @@ float: right;
 font-size: 2vw;
 }
 
-.rubberocket-navigation-links a:link {
+.rubberocket-navigation-links a:link a:visited {
 color: #FF0000;
 text-decoration: none;
 font-family: Libre Franklin Bold Italic, sans-serif;
@@ -229,7 +229,7 @@ font-family: Libre Franklin Bold Italic, sans-serif;
 
 /* be responsive */
 
-.navmobile a:link {
+.navmobile a:link a:visited {
 color: #FFF;
 text-decoration: #000;
 }
@@ -237,7 +237,7 @@ text-decoration: #000;
 .menubutton {
 display: none;
 float: right;
-font-size: 4vh;
+font-size: 5vh;
 }
 
 .navmobile, #navmobile {
