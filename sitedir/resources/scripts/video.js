@@ -1,3 +1,4 @@
+window.addEventListener("load", function() {
 //video player
 
 //get id
@@ -28,3 +29,5 @@ datebox.innerHTML = date;
 ogfilenamebox.innerHTML = originalfilename;
 video.src = videourl;
 }
+
+});
