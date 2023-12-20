@@ -244,6 +244,7 @@ color: #DD4444;
 
 .rubberocket-asterisk {
 height: 100%;
+background-image: url("/resources/images/asterisk.png");
 float: left;
 }
 
