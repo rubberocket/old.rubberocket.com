@@ -11,7 +11,6 @@ aspect-ratio: 16/9
 }
 
 .video {
-object-fit: cover;
 aspect-ratio: 16/9;
 }
 
