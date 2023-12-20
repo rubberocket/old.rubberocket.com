@@ -9,14 +9,15 @@ padding: 2px;
 background-color: white;
 color: black;
 float: left;
-width: calc(64%/16);
-height: calc(36%/9);
+width: 50%;
+height: 100%;
+aspect-ratio: 16/9
 }
 
 .video {
 object-fit: cover;
 width: 100%;
-height: 100%;
+aspect-ratio: 16/9;
 }
 
 .videoselection {
@@ -26,6 +27,6 @@ padding: 2px;
 background-color: white;
 color: black;
 overflow-y: scroll;
-width: 30%;
-height: 10%;
+width: 50%;
+height: 100%;
 }
