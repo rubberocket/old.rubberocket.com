@@ -18,8 +18,8 @@ if (videoid === "notgameplay2017"){
 console.log(videoid);
 const description = "Quote-unquote Roblox gameplay from a bygone era. I don't even move my avatar in this one, I just listen to the copyrighted music. Still waiting for Disney to sue me.";
 const title = "Ducktales Reboot Roblox Gameplay";
-const date = "11/24/2017"
-const originalfilename = "robloxapp-20171124-1732404.mp4 (renamed to roblox2017.mp4)"
+const date = "11/24/2017";
+const originalfilename = "robloxapp-20171124-1732404.mp4 (renamed to roblox2017.mp4)";
 const videourl = "https://leopard.hosting.pecon.us/dl/dshqs/roblox2017.mp4";
 
 //video info!!
