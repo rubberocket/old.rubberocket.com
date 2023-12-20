@@ -206,20 +206,20 @@ background: #9BB1CC;
 width: 100%;
 height: 5%;
 position: relative;
-display: block;
+display: block grid;
 }
 
 .andtherest {
 width: 100%;
 height: 90%;
-display: block;
+display: block grid;
 overflow-y: scroll;
 }
 
 .footer {
 width: 100%;
 height: 5%;
-display: block;
+display: block grid;
 text-align: center;
 font-size: 1vw;
 }
