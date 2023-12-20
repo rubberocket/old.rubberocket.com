@@ -1,0 +1,165 @@
+@font-face {
+font-family: Inter;
+src: 
+url("/resources/fonts/inter.ttf") format("ttf"),
+url("/resources/fonts/inter.woff") format("woff"),
+url("/resources/fonts/inter.woff2") format("woff2"),
+url("/resources/fonts/inter.otf") format("otf");
+}
+
+@font-face {
+font-family: Libre Franklin;
+src: 
+url("/resources/fonts/libre_franklin.ttf") format("ttf"),
+url("/resources/fonts/libre_franklin.woff") format("woff"),
+url("/resources/fonts/libre_franklin.woff2") format("woff2"),
+url("/resources/fonts/libre_franklin.otf") format("otf");
+}
+
+html, body {
+background: #334466;
+color: #FFFFFF;
+font-family: Inter, sans-serif;
+margin: 0;
+width: 100%;
+height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+font-family: Libre Franklin, sans-serif;;
+font-weight: black;
+}
+
+.centeritems {
+place-items: center;
+}
+
+.centertext {
+text-align: center;
+}
+
+.rubberocket-navigation {
+background: #9BB1CC;
+width: 100%;
+height: 5%;
+position: relative;
+display: block;
+}
+
+.andtherest {
+width: 100%;
+height: 90%;
+display: block;
+overflow-y: scroll;
+}
+
+.footer {
+width: 100%;
+height: 5%;
+display: block;
+text-align: center;
+}
+
+/* navbar specifics */
+
+.rubberocket-asterisk {
+width: auto;
+height: 100%;
+float: left;
+}
+
+.rubberocket-asterisk:hover {
+filter: blur(2px);
+}
+
+.rubberocket-navigation-links {
+float: right;
+font-size: calc(30px - 1%);
+}
+
+.rubberocket-navigation-links a:link {
+color: #FF0000;
+text-decoration: none;
+font-family: Libre Franklin, sans-serif;;
+font-weight: black;
+}
+
+
+/* be responsive */
+
+.navmobile a:link {
+color: #FFF;
+text-decoration: #000;
+}
+
+.menubutton {
+display: none;
+float: right;
+font-size: 4vh;
+}
+
+.navmobile, #navmobile {
+width: 0;
+height: 100%;
+overflow: hidden;
+z-index: 1000000000000000000000000000000000000000000;
+position: fixed;
+background-color: #000000;
+color: #FFF;
+top: 0;
+left: 0;
+font-size: 3vw;
+transition: 0.5s;
+font-family: Libre Franklin, sans-serif;
+}
+
+.navmobile-text {
+position: relative;
+top: 25%;
+width: 100%;
+text-align: center;
+margin-top: 30px;
+}
+
+.closebtn {
+position: absolute;
+top: 20px;
+right: 45px;
+font-size: 60px;
+}
+
+@media only screen and (max-width: 1330px) {
+.rubberocket-navigation-links {
+display: none;
+}
+.menubutton {
+display: block;
+background-color: #000;
+color: #FFF;
+float: right;
+}
+
+.rubberocket-navigation {
+background: #9BB1CC;
+width: 100%;
+height: 10%;
+position: relative;
+display: block;
+}
+
+.andtherest {
+width: 100%;
+height: 80%;
+display: block;
+overflow-y: scroll;
+}
+
+.footer {
+width: 100%;
+height: 10%;
+display: block;
+text-align: center;
+font-size: 3vh;
+}
+
+}
