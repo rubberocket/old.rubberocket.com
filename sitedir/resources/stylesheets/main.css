@@ -163,15 +163,14 @@
 html, body {
 background: #334466;
 color: #FFFFFF;
-font-family: Libre Franklin, sans-serif;
+font-family: Libre Franklin Regular, sans-serif;
 margin: 0;
 width: 100%;
 height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6{
-font-family: Libre Franklin, sans-serif;;
-font-weight: 900;
+font-family: Libre Franklin Black, sans-serif;
 }
 
 .centeritems {
@@ -224,8 +223,7 @@ font-size: 2vw;
 .rubberocket-navigation-links a:link {
 color: #FF0000;
 text-decoration: none;
-font-family: Libre Franklin, sans-serif;;
-font-weight: 900;
+font-family: Libre Franklin Bold Italic, sans-serif;
 }
 
 
