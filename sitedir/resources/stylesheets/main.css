@@ -243,8 +243,8 @@ color: #DD4444;
 /* navbar specifics */
 
 .rubberocket-asterisk {
+width: auto;
 height: 100%;
-background-image: url("/resources/images/asterisk.png");
 float: left;
 }
 
