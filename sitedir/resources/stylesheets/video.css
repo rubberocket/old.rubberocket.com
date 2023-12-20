@@ -13,14 +13,13 @@ padding: 2px;
 background-color: white;
 color: black;
 float: left;
-width: 50%;
+width: 49%;
 height: 100%;
 aspect-ratio: 16/9
 }
 
 .video {
 object-fit: cover;
-width: 100%;
 aspect-ratio: 16/9;
 }
 
