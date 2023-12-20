@@ -1,3 +1,7 @@
+html, body {
+margin: auto;
+}
+
 .andtherest {
 max-width: 800px;
 place-items: center;
