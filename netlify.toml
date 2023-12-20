@@ -1,1 +1,10 @@
 ## fuck
+
+##game redirect, has its own separate domain
+[[redirects]]
+from = "/games/index.html"
+to = "http://games.rubberocket.com"
+status = 301
+force = true
+
+##that's it.
