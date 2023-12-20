@@ -223,6 +223,22 @@ text-align: center;
 font-size: 1vw;
 }
 
+a:link {
+color: #FF0000;
+}
+
+a:hover {
+color: #FFD0D0;
+}
+
+a:active {
+color: #AA0000;
+}
+
+a:visited {
+color: #DD4444;
+}
+
 /* navbar specifics */
 
 .rubberocket-asterisk {
