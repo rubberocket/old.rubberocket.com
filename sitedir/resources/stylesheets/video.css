@@ -1,19 +1,11 @@
-html, body {
-margin: auto;
-}
-
-.andtherest {
-max-width: 800px;
-place-items: center;
-}
-
 .videobox {
 border: 2px solid black;
 padding: 2px;
 background-color: white;
 color: black;
 float: left;
-width: 49%;
+display: block;
+width: 50%;
 height: 100%;
 aspect-ratio: 16/9
 }
@@ -24,6 +16,7 @@ aspect-ratio: 16/9;
 }
 
 .videoselection {
+display: block;
 float: right;
 border: 2px solid black;
 padding: 2px;
