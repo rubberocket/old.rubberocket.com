@@ -206,7 +206,7 @@ background: #9BB1CC;
 width: 100%;
 height: 5%;
 position: relative;
-display: block grid;
+display: block;
 }
 
 .andtherest {
