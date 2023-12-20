@@ -27,7 +27,7 @@ height: 100%;
 
 h1, h2, h3, h4, h5, h6{
 font-family: Libre Franklin, sans-serif;;
-font-weight: black;
+font-weight: 900;
 }
 
 .centeritems {
@@ -74,7 +74,7 @@ filter: blur(2px);
 
 .rubberocket-navigation-links {
 float: right;
-font-size: calc(30px - 1%);
+font-size: 3vw;
 }
 
 .rubberocket-navigation-links a:link {
