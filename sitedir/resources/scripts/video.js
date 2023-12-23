@@ -8,6 +8,6 @@ videobox.innerHTML = '<source src="/resources/videos/Mary%20And%20Maottos%20Wedd
 videobox.play();
 }
 function video3(){
-videobox.innerHTML = '<source src="/resources/videos/Mary%20And%20Maottos%20Wedding.mp4" type="video/mp4"> <a href="/resources/videos/pixu_SILENT_HOLYCRAP.avi">download the video?</a>';
+videobox.innerHTML = '<source src="/resources/videos/pixu_SILENT_HOLYCRAP.mp4" type="video/mp4"> <a href="/resources/videos/pixu_SILENT_HOLYCRAP.avi">download the video?</a>';
 videobox.play();
 }
