@@ -1,14 +1,3 @@
-.artbox {
-width: 30%;
-display: block;
+img {
 image-rendering: pixelated;
-}
-.selection {
-width: 30%;
-height: 20%;
-display: block;
-background-color: #000;
-border: 2px solid white;
-overflow-x: scroll;
-overflow-y: none;
 }
