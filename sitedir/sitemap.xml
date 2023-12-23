@@ -6,7 +6,7 @@
 
     <loc>https://www.rubberocket.com</loc>
 
-    <lastmod>2023-12-21</lastmod>
+    <lastmod>2023-12-23</lastmod>
 
     <changefreq>weekly</changefreq>
 
@@ -18,7 +18,37 @@
 
     <loc>https://www.rubberocket.com/videos/</loc>
 
-    <lastmod>2023-12-20</lastmod>
+    <lastmod>2023-12-23</lastmod>
+
+    <priority>0.8</priority>
+
+   </url>
+
+    <url>
+
+    <loc>https://www.rubberocket.com/images/</loc>
+
+    <lastmod>2023-12-23</lastmod>
+
+    <priority>0.8</priority>
+
+   </url>
+
+  <url>
+
+    <loc>https://www.rubberocket.com/about/</loc>
+
+    <lastmod>2023-12-23</lastmod>
+
+    <priority>0.8</priority>
+
+   </url>
+
+  <url>
+
+    <loc>https://www.rubberocket.com/extras/</loc>
+
+    <lastmod>2023-12-23</lastmod>
 
     <priority>0.8</priority>
 
