@@ -25,3 +25,9 @@ overflow-y: scroll;
 width: calc(50% - 8px);
 height: 100%;
 }
+
+.scrollyvideo {
+width: 100%;
+height: 40%;
+overflow-y: scroll;
+}
