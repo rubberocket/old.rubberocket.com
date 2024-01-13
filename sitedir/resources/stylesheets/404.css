@@ -1,4 +1,7 @@
 /* just some div-specific stuff, nothing to see here */
+* {
+background-image: url("../../missing.gif");
+}
 html, body {
 margin: 0;
 font-family: Helvetica Regular, Arial, sans-serif;
@@ -18,7 +21,7 @@ border: solid 1px;
 }
 .links a:link, .links a:hover, .links a:active, .links a:visited {
 font-weight: bold;
-color: #FF0000;
+color: #00FF00;
 text-decoration: none;
 }
 .lefty a:link, .lefty a:hover, .lefty a:active, .lefty a:visited {
