@@ -11,4 +11,4 @@ The rubberocket website. Not made out of rubber, unfortunately.
 <p>Unfortunately, v1 wasn't able to make it. :(</p>
 
 <h2>How do you do this stuff?</h2>
-<p>See the V2 and V3 branches' READMEs.</p>
+<p>See the branches' READMEs.</p>
