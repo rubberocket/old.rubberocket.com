@@ -4,11 +4,7 @@
 The rubberocket website. Not made out of rubber, unfortunately.
 <br>
 <hr>
-<h1>N.S.F.A.Q.</h1>
-
-<h2>Hey! Where'd sitedir go?! in the main branch?</h2>
-<p>Check out the branches that start with the letter v.</p>
-<p>Unfortunately, v1 wasn't able to make it. :(</p>
-
-<h2>How do you do this stuff?</h2>
-<p>See the branches' READMEs.</p>
+<h2>How is this stuff made?</h2>
+<strike>Github Pages</strike> <strike>Netlify</strike> <strike>Vercel</strike> who cares about deploying. HTML and some CSS are used.
+<br>
+You should definitely visit via rubberocket.com.

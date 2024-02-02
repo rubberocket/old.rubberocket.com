@@ -1,0 +1,55 @@
+/* just some div-specific stuff, nothing to see here */
+* {
+background-image: url("../../missing.gif");
+}
+html, body {
+margin: 0;
+font-family: Helvetica Regular, Arial, sans-serif;
+}
+.header {
+width: 100%;
+background-color: #000;
+margin: 0;
+display: block;
+}
+.header_img {
+image-rendering: pixelated;
+}
+.links {
+background-color: #FFF;
+border: solid 1px;
+}
+.links a:link, .links a:hover, .links a:active, .links a:visited {
+font-weight: bold;
+color: #00FF00;
+text-decoration: none;
+}
+.lefty a:link, .lefty a:hover, .lefty a:active, .lefty a:visited {
+font-weight: bold;
+color: #FF0000;
+text-decoration: none;
+}
+
+.content_insides {
+width: 100%;
+display: block;
+}
+
+.lefty {
+background-color: #000;
+color: #FFF;
+}
+.therest {
+min-width: 600px;
+width: 85%;
+background-color: #FFF;
+}
+
+.footer {
+position: relative;
+bottom: 0px;
+}
+
+.thumbnail {
+float: left;
+}
