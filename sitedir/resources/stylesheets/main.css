@@ -1,36 +1,22 @@
 :root {
 	@media (prefers-color-scheme: dark) {
-	--main-bg-color: #b68106;
+	--main-bg-color: #B68106;
 	--main-text-color: #FFFFFF;
 	}
 	@media (prefers-color-scheme: light) {
-	--main-bg-color: ##FFC72C;
+	--main-bg-color: #FFC72C;
 	--main-text-color: #000000;
 	}
 }
 
-@media (prefers-color-scheme: light) {
-	a:link {
-	color: #0000FF;
-	}
-	a:active {
-	color: #FF0000;
-	}
-	a:visited {
-	color: #551A8B;
-	}
+a:link {
+	color: #418FDE;
 }
-
-@media (prefers-color-scheme: dark) {
-	a:link {
-	color: #FF0000;
-	}
-	a:active {
-	color: #FFAAAA;
-	}
-	a:visited {
-	color: #8B0000;
-	}
+a:active {
+	color: #DC4405;
+}
+a:visited {
+	color: #418FDE;
 }
 
 html, body {
