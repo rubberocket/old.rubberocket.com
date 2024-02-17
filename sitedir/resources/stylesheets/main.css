@@ -38,18 +38,14 @@ img.rkword {
 	img.rkword {
 	filter: invert(100%);
 	}
-	img.cc {
-	filter: invert(100%);
-	}
+
 }
 
 @media (prefers-color-scheme: light) {
 	img.rkword {
 	filter: invert(0%);
 	}
-	img.cc {
-	filter: invert(0%);
-	}
+
 }
 
 
