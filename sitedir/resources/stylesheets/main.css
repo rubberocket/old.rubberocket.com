@@ -1,27 +1,22 @@
 :root {
-	@media (prefers-color-scheme: dark) {
-	--main-bg-color: #B68106;
-	--main-text-color: #FFFFFF;
-	}
-	@media (prefers-color-scheme: light) {
-	--main-bg-color: #FFC72C;
-	--main-text-color: #000000;
-	}
+	--rubberocket-maillotjune: #FFC72C;
+	--rubberocket-blue: #418FDE;
+	--rubberocket-red: #DC4405;
 }
 
 a:link {
-	color: #418FDE;
+	color: var(--rubberocket-blue);
 }
 a:active {
-	color: #DC4405;
+	color: var(--rubberocket-red);
 }
 a:visited {
-	color: #418FDE;
+	color: var(--rubberocket-blue);
 }
 
 html, body {
-	background-color: var(--main-bg-color);
-	color: var(--main-text-color);
+	background-color: var(--rubberocket-maillotjune);
+	color: black;
 	margin: 0 auto;
 	text-align: center;
 	font-family: Archivo, Arial, sans-serif;
@@ -32,22 +27,6 @@ img.rkword {
 	width: 27%;
 	height: 27%;
 }
-
-
-@media (prefers-color-scheme: dark) {
-	img.rkword {
-	filter: invert(100%);
-	}
-
-}
-
-@media (prefers-color-scheme: light) {
-	img.rkword {
-	filter: invert(0%);
-	}
-
-}
-
 
 img {
 	image-rendering: pixelated;
