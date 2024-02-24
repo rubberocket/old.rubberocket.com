@@ -13,6 +13,8 @@
   font-size:0;    /* Force space between inline-block elements to be 0 */
 }
 #left_frame {
+  display: inline-block;
+  box-sizing: border-box;
   width: 50%;
   height: 100%;
 }
@@ -28,8 +30,8 @@
 <body>
 
 <div id="main_block">
-<iframe id="left_frame" src="catalog.html" name="rrkt-catalog" allowfullscreen></iframe>
-<iframe id="right_frame" src="videos/static.html" name="rrkt-videoportion" allowfullscreen></iframe>
+<iframe id="left_frame" src="catalog.html" name="rrkt-catalog" allowfullscreen border="0" width="50%" height="100%"></iframe>
+<iframe id="right_frame" src="videos/static.html" name="rrkt-videoportion" allowfullscreen border="0" width="50%" height="100%"></iframe>
 </div>
 
 </body>
