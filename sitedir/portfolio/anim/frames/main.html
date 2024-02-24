@@ -4,11 +4,35 @@
 
 <head>
 <meta name="robots" content="noindex">
+<style type="text/css">
+/* shoutout to stack overflow*/
+#main_block {
+  display: block; /* Useless, divs are display:block */
+  width: 100%;    /* Useless, display:block elements are width:100% by default */
+  height: 100%;   /* Fairly useless now, should take children's height */
+  font-size:0;    /* Force space between inline-block elements to be 0 */
+}
+#left_frame {
+  width: 140px;
+}
+#right_frame {
+  width: calc(100% - 140px);
+}
+#left_frame,#right_frame {
+  display: inline-block;
+  box-sizing: border-box;
+  height: calc(100vh - 50px);
+}
+</style>
 </head>
 
 <body>
-<iframe src="catalog.html" name="rrkt-catalog" width="50%" height="100%" allowfullscreen></iframe>
-<iframe src="videos/static.html" name="rrkt-videoportion" width="50%" height="100%" allowfullscreen></iframe>
+
+<div id="main_block">
+<iframe id="left_frame" src="catalog.html" name="rrkt-catalog" width="50%" height="100%" allowfullscreen></iframe>
+<iframe id="right_frame" src="videos/static.html" name="rrkt-videoportion" width="50%" height="100%" allowfullscreen></iframe>
+</div>
+
 </body>
 
 </html>
