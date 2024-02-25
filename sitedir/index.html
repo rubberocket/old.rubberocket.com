@@ -17,6 +17,19 @@
 	<meta name="twitter:title" content="Rubberocket">
 	<meta name="twitter:description" content="The official website of some guy who likes animating. May also include other things to look at.">
 
+	<style type="text/css">
+	.quakeranger {
+		cursor: pointer;
+	}
+	</style>
+	<script type="text/javascript">
+		function playAudio(url) {
+  		new Audio(url).play();
+		}
+		function huh() {
+		playAudio("resources/audio/quakejump.mp3");
+		}
+	</script>
 </head>
 
 <body>
@@ -38,7 +51,7 @@
 		</div>
 
 		<!--Content-->
-		<a href="aibad/">AI makes a website!</a> Be very afraid.
+		<img src="resources/images/ranger.png" alt="Ranger from Quake" width="120" height="120" class="quakeranger" onclick="huh();">
 
 		<hr>
 
