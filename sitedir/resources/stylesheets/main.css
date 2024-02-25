@@ -4,13 +4,10 @@
 	--rubberocket-red: #DC4405;
 }
 
-a:link {
-	color: var(--rubberocket-blue);
-}
-a:active {
+a:link, a:active, a:visited {
 	color: var(--rubberocket-red);
 }
-a:visited {
+a:hover {
 	color: var(--rubberocket-blue);
 }
 
